@@ -6,4 +6,4 @@ Python的标准类库很广泛，它提供了一些工具类库，这些类库�
 
 Windows平台的安装程序通常包含整个标准类库和一些额外的组件。对于类Unix操作系统Python通常提供包的集合，所以可能需要使用操作系统提供的包工具来获取部分或全部的可选组件。
 
-除了标准类库，还有几千个其他的组件，参见[https://pypi.python.org/pypi](https://pypi.python.org/pypi) 。
+除了标准类库，还有上千个第三方组件，参见[https://pypi.python.org/pypi](https://pypi.python.org/pypi) 。
