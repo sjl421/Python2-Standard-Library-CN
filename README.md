@@ -6,6 +6,7 @@
 **译者：**[wanglin90](https://github.com/wanglin90)
 
 **邮箱：**[wanglin20130410@126.com](mailto:wanglin20130410@126.com)
+----------
 
 ## 简介
 尽管Python语言参考准确地描述了Python的语法和语义，但是该参考手册描述了Python的标准类库。它也描述了一些可选的组件，这些组件通常包含在Python的发布版本中。
