@@ -5,7 +5,7 @@ Python解释器包含了很多内置函数，如下表所示。
 <table>
   <thead>
 	<tr>
-		<th colspan="5">内置函数</th>
+		<th colspan="5" style="background:gray">内置函数</th>
 	</tr>
   </thead>
   <tbody>
