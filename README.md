@@ -16,6 +16,6 @@ Windows平台的安装程序通常包含整个标准类库和一些额外的组�
 
 除了标准类库，还有上千个第三方组件，参见[https://pypi.python.org/pypi](https://pypi.python.org/pypi) 。
 
-* [1.介绍](1-Introduction.md)
-* [2.内置函数](2-Build-in Functions.md)
-* [3.非必须内置函数](3-Non-essential Build-in Functions.md)
+* [**1.介绍**](1-Introduction.md)
+* [**2.内置函数**](2-Build-in Functions.md)
+* [**3.非必须内置函数**](3-Non-essential Build-in Functions.md)
