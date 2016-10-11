@@ -18,3 +18,4 @@ Windows平台的安装程序通常包含整个标准类库和一些额外的组�
 
 * [1.介绍](1-Introduction.md)
 * [2.内置函数](2-Build-in Functions.md)
+* [3.非必须内置函数](3-Non-essential Build-in Functions.md)
