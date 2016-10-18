@@ -139,3 +139,11 @@ Python解释器包含了很多内置函数，如下表所示(按字母顺序)。
 				return False
 		return True
 	```
+```Python
+def all(iterable):
+	for element in interable:
+		if not element:
+			return False
+	return True
+```
+	
