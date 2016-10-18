@@ -126,10 +126,10 @@ Python解释器包含了很多内置函数，如下表所示(按字母顺序)。
 
 另外，还有四个可选的内置函数：apply(),buffer(),coerce()和inter()。这四个可选内置函数都在Non-essential Build-in Functions部分中。
 
-**abs(x)**
+**abs(x)**<br>
 	返回一个数字的绝对值。参数可以为空或者长整型或者浮点型数字。如果参数是一个复数，则返回它的大小。
 
-**all(iterable)**
+**all(iterable)**<br>
 	如果iterable中的所有元素都为true(或者iterable为空)，返回 True,等价于：
 	
 	```
