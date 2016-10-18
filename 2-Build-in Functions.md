@@ -131,10 +131,10 @@ Python解释器包含了很多内置函数，如下表所示(按字母顺序)。
 
 **all(iterable)**
 	如果iterable中的所有元素都为true(或者iterable为空)，返回 True,等价于：
-	‘’‘
+	'''
 	def all(iterable):
     		for element in iterable:
           		if not element:
             		return False
     		return True
-	’‘’
+	'''
