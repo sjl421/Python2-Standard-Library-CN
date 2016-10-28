@@ -140,7 +140,7 @@ def all(iterable):
 ```
 
 **any**(iterable)<br>
- 只要iterable中任何一个元素为ture就返回True，否则发挥False,等价于：
+ 只要iterable中任何一个元素为Ture就返回True，否则返回False,等价于：
 ```Python
 def any(iterable):
 	for element in iterable:
