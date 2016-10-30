@@ -150,4 +150,12 @@ def any(iterable):
 ```
 **basestring**()<br>
  `str`和`unicode`的超类，不能被调用或实例化，但是可以判断一个对象是不是`str`或`unicode`类型。`isinstance(obj, basestring)`等价于`isinstance(obj,(str,unicode))`。
-	
+ 
+ **bin**(x)<br>
+  将一个数字转换成一个二进制字符串。结果是一个有效的Python表达式。如果x不是一个Python int 对象，它必须定义一个_index_()方法，返回一个整数。
+  
+*class* **bool**([x])<br>
+  返回一个布尔值，`True`或`False`。 如果*x*为false或者忽略，则返回**False**;否则返回 **True**。**bool**也是一个类，它是**int**的子类。**bool**不能再被继承。它只能实例化成**False**和**True**。
+  
+  *2.2.1版本的新特性*。
+  *在2.3中做了修改:*如果不传参数，则返回**False**。
