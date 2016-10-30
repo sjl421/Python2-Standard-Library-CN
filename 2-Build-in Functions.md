@@ -163,7 +163,9 @@ def any(iterable):
 *class* **bytearray**([source[,encoding[,errors]]])<br>
   返回一个新的字节数组。**bytearray**类是一个可变的字节数组，它的范围是0~256。它具有可变序列类型的最常见的方法，以及大多数`str`类型的方法。<br>
   
-  可选参数*source*可以使用以下集中方式初始化数组：<br>
+  可选参数*source*可以使用以下几种方式初始化数组：<br>
   
   - 如果是 unicode,必须指定编码，然后使用**unicode.encode()**方法将unicode转换成字节。
   - 如果是 integer,该数组将以空字节大小来进行初始化。
+  - 如果一个对象遵循 buffer接口，将使用这个对象的只读buffer来初始化数组。
+  - 如果是一个iterable，它必须是范围在0~256的整数iterable，作为数组的初始化内容。
