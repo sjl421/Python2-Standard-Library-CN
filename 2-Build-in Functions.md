@@ -148,6 +148,6 @@ def any(iterable):
 			return True
 		return False
 ```
-**basestring**()
+**basestring**()<br>
  `str`和`unicode`的超类，不能被调用或实例化，但是可以判断一个对象是不是`str`或`unicode`类型。`isinstance(obj, basestring)`等价于`isinstance(obj,(str,unicode))`。
 	
