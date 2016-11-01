@@ -189,5 +189,11 @@ class C(object):
 	def f(cls,arg1,arg2,...):
 	...
 ```
-  `@classmethod`是一个函数装饰器，详细请参考 Funtion definitions 部分。
+  `@classmethod`是一个函数装饰器，详细请参考 Funtion definitions 部分。<br>
   
+  类方法既能被类调用（如`C.f()`）也能被实例调用（如`C().f()`）。如果一个类方法被子类调用，那么这个子类被隐式的传入类方法的第一个参数中。<br>
+  
+  Python的类方法不同于C++的类方法，也不同于Java的 static 方法。
+  
+**cmp**(x,y)<br>
+  比较两个对象 x , y 的大小，输出一个整数。`x < y` 为负数，`x==y` 为 0，`x > y`为整数。
