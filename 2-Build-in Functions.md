@@ -126,10 +126,10 @@ Python解释器包含了很多内置函数，如下表所示(按字母顺序)。
 
 另外，还有四个可选的内置函数：apply(),buffer(),coerce()和inter()。这四个可选内置函数都在Non-essential Build-in Functions部分中。
 
-**abs**(x)<br>
+**abs(x)**<br>
   返回一个数的绝对值。参数可以为空或者长整型或者浮点型数字。如果参数是一个复数，则返回它的大小。
 
-**all**(iterable)<br>
+**all(iterable)**<br>
   如果iterable中的所有元素都为true(或者iterable为空)，返回 True,等价于：
 ```Python
 def all(iterable):
@@ -139,7 +139,7 @@ def all(iterable):
 	return True
 ```
 
-**any**(iterable)<br>
+**any(iterable)**<br>
  只要iterable中任何一个元素为Ture就返回True，否则返回False,等价于：
 ```Python
 def any(iterable):
@@ -148,19 +148,19 @@ def any(iterable):
 			return True
 		return False
 ```
-**basestring**()<br>
+**basestring()**<br>
  `str`和`unicode`的超类，不能被调用或实例化，但是可以判断一个对象是不是`str`或`unicode`类型。`isinstance(obj, basestring)`等价于`isinstance(obj,(str,unicode))`。
  
- **bin**(x)<br>
+ **bin(x)**<br>
   将一个数字转换成一个二进制字符串。结果是一个有效的Python表达式。如果x不是一个Python int 对象，它必须定义一个_index_()方法，返回一个整数。
   
-*class* **bool**([x])<br>
+*class* **bool([x])**<br>
   返回一个布尔值，`True`或`False`。 如果*x*为false或者忽略，则返回**False**;否则返回 **True**。**bool**也是一个类，它是**int**的子类。**bool**不能再被继承。它只能实例化成**False**和**True**。
   
   *2.2.1版本的新特性*。<br>
   *在2.3中做了修改:* 如果不传参数，则返回**False**。
   
-*class* **bytearray**([source[,encoding[,errors]]])<br>
+*class* **bytearray([source[,encoding[,errors]]])**<br>
   返回一个新的字节数组。**bytearray**类是一个可变的字节数组，它的范围是0~256。它具有可变序列类型的最常见的方法，以及大多数`str`类型的方法。<br>
   
   可选参数*source*可以使用以下几种方式初始化数组：<br>
@@ -174,13 +174,13 @@ def any(iterable):
 
   *2.6版本中的新特性*
   
-**callable**(object)<br>
+**callable(object)**<br>
   如果*ojbect*可以被调用，返回**True**，否则返回**False**。这个函数如果返回**True**，它也可能调用失败；但如果返回**False**,则*ojbect*永远不会调用成功。注意，类是可以被调用的；有_call_()方法的类实例也可以被调用。
   
-**chr**(i)<br>
+**chr(i)**<br>
   返回一个ASCII码代表的字符。比如，`chr(97)` 返回字符 `a`。它跟 **ord**()相反。i的值必须在0~255之间；如果i的值超出255，则抛出**ValueError**异常。可以参见 **unichr**()。
   
-**classmethod**(function)<br>
+**classmethod(function)**<br>
   指定一个方法为类方法。<br>
   类方法会将一个类隐式地作为第一个参数，就像实例方法会将实例作为自己的参数一样。将一个方法定义为类方法，如下：<br>
 ```Python
@@ -195,8 +195,8 @@ class C(object):
   
   Python的类方法不同于C++的类方法，也不同于Java的 static 方法。
   
-**cmp**(x,y)<br>
+**cmp(x,y)**<br>
   比较两个对象 x , y 的大小，输出一个整数。`x < y` 为负数，`x==y` 为 0，`x > y`为整数。
 
-**compile**(source,filename,mode[,flags[,dont_inherit]])<br>
+**compile(source,filename,mode[,flags[,dont_inherit]])**<br>
   将 source 编译成 code 或 AST 对象，Code 对象能够通过 **exec** 语句来执行或者 **eval()** 进行求值。source 既可以是 unicode 字符串，Latin-1 编码后的字符串也可以是 AST 对象。
