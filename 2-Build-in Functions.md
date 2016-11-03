@@ -197,3 +197,6 @@ class C(object):
   
 **cmp**(x,y)<br>
   比较两个对象 x , y 的大小，输出一个整数。`x < y` 为负数，`x==y` 为 0，`x > y`为整数。
+
+**compile**(source,filename,mode[,flags[,dont_inherit]])<br>
+  将 source 编译成 code 或 AST 对象，Code 对象能够通过 **exec** 语句来执行或者 **eval()** 进行求值。source 既可以是 unicode 字符串，Latin-1 编码后的字符串也可以是 AST 对象。
