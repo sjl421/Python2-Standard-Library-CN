@@ -199,4 +199,14 @@ class C(object):
   比较两个对象 x , y 的大小，输出一个整数。`x < y` 为负数，`x==y` 为 0，`x > y`为整数。
 
 **compile(source,filename,mode[,flags[,dont_inherit]])**<br>
-  将 source 编译成 code 或 AST 对象，Code 对象能够通过 **exec** 语句来执行或者 **eval()** 进行求值。source 既可以是 unicode 字符串，Latin-1 编码后的字符串也可以是 AST 对象。
+  将 source 编译成 code 或 AST 对象，Code 对象能够通过 **exec** 语句来执行或者 **eval()** 进行求值。<br>
+  
+  source: 既可以是 unicode 字符串，Latin-1 编码后的字符串也可以是 AST 对象。<br>
+  filename: code文件名，如果不是从文件中读取则传递可用的值。<br>
+  model: 编译code的种类，值可以为 ‘exec’,‘eval’,‘single’。<br>
+
+class **complex([real[,imag]])**<br>
+  返回一个值为 real + imag\*j 的复数，或者字符串或数转成一个复数。如果第一个参数为字符串，则不需要指定第二个参数。<br>
+  real: int,long,float或字符串。<br>
+  imag: int,long,float。
+  
