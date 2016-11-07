@@ -204,9 +204,26 @@ class C(object):
   source: 既可以是 unicode 字符串，Latin-1 编码后的字符串也可以是 AST 对象。<br>
   filename: code文件名，如果不是从文件中读取则传递可用的值。<br>
   model: 编译code的种类，值可以为 ‘exec’,‘eval’,‘single’。<br>
+  
+```Python
+	>>>code="print hello world"
+	>>>cmp_code=compile(code,'','exec')
+	>>>exec cmp_code
+	hello world
+```
 
 class **complex([real[,imag]])**<br>
   返回一个值为 real + imag\*j 的复数，或者字符串或数转成一个复数。如果第一个参数为字符串，则不需要指定第二个参数。<br>
   real: int,long,float或字符串。<br>
   imag: int,long,float。
-  
+ 
+```Python
+	>>>complex(1,2)
+	(1+2j)
+	>>>complex(1)
+	(1+0j)
+	>>>complex("1")
+	(1+0j)
+	>>>complex("1+2j")
+	(1+2j)
+```
