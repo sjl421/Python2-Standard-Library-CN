@@ -227,3 +227,19 @@ class **complex([real[,imag]])**<br>
 	>>>complex("1+2j")
 	(1+2j)
 ```
+
+**delattr(object,name)**<br>
+  删除 `object` 对象中名为 `name` 的属性。跟 `setattr()` 相反。
+
+```Python
+	>>>class Person:
+	...	def __init__(self,name,age):
+	...		self.name=name
+	...		self.age=age
+	>>>wanglin=Person('Wanglin',28)
+	>>>dir(wanglin)
+	['__doc__','__init__','__module__','age','name']
+	>>>delattr(wanglin,'name')
+	>>>dir(wanglin)
+	['__doc__','__init__','__module__','age']
+```
