@@ -248,3 +248,12 @@ class **dict(\*\*kwarg)**<br>
 class **dict(mapping,\*\*kwarg)**<br>
 class **dict(iterable,\*\*kwarg)**<br>
   创建一个字典。
+  
+```Python
+	>>>d = dict()
+	>>>print d
+	{}
+	>>>dd = dict(a=12,b=24,c=45)
+	>>>print dd
+	{'a':12,'b':24,'c':45}
+```
