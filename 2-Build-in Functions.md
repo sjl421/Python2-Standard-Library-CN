@@ -256,4 +256,8 @@ class **dict(iterable,\*\*kwarg)**<br>
 	>>>dd = dict(a=12,b=24,c=45)
 	>>>print dd
 	{'a':12,'b':24,'c':45}
+	>>>ddd = map(lambda x,y:(x,y),range(1,4),list('abc'))
+	>>>dddd = dict(ddd)
+	>>>print dddd
+	{1:'a',2:'b',3:'c'}
 ```
