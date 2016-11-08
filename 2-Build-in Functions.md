@@ -243,3 +243,8 @@ class **complex([real[,imag]])**<br>
 	>>>dir(wanglin)
 	['__doc__','__init__','__module__','age']
 ```
+
+class **dict(\*\*kwarg)**<br>
+class **dict(mapping,\*\*kwarg)**<br>
+class **dict(iterable,\*\*kwarg)**<br>
+  创建一个字典。
